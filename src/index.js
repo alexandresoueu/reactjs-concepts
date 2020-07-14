@@ -1,3 +1,6 @@
-import { sum } from './sum'
+import React from 'react'
+import { render } from 'react-dom'
+import App from './App'
+import Header from '../src/components/Header'
 
-console.log('SUM:: ', sum(7, 3))
+render(<><App /> <Header /></>, document.getElementById('app'))
